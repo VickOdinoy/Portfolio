@@ -1,0 +1,40 @@
+.social-network{
+    display: flex;
+    justify-content: baseline;
+    align-items: center;
+    gap: 1rem;
+    margin: 1rem 0;
+}
+
+.social-btn{
+    padding: .6rem;
+    background-color: #1b1b1b;
+    border-radius: 5px;
+    color: #333;
+    font-size: 1.3rem;
+    margin: 8px;
+    display: inline-flex;
+    justify-content: baseline;
+    align-items: center;
+}
+
+.linkedin{
+    color: #0072b1;
+}
+
+.instagram{
+    color: #bc2a8d;
+}
+
+.github{
+    color: #000000;
+}
+
+.whatsapp{
+    color: #25D366;
+}
+
+.social-btn:hover{
+    background-image: linear-gradient(90deg, #c22ed0 , #5ffae0 );
+}
+

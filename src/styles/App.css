@@ -1,0 +1,38 @@
+@font-face {
+    font-family: rewrite;
+    src: url(fonts/Rewrite.ttf) format('truetype');
+  }
+
+@font-face {
+    font-family: vanilla;
+    src: url('fonts/Vanilla Creamy.ttf') format('truetype');
+  }
+ 
+ .App {
+  font-family: rewrite;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 3rem;
+  gap: 3rem;
+}
+
+.App h1 {
+  font-family: vanilla;
+  width: 100%;
+  font-size: 5rem;
+  margin-bottom: 4rem;
+  background-image: linear-gradient(90deg, rgba(250,82,82,1) 0%, rgba(221,36,118,1) 100%);
+  color: black;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+body {
+  background: linear-gradient(to top, #1a4a5a , #271b31 ) no-repeat fixed ;
+  color: rgb(0, 0, 0);
+  border-radius: 50px;
+  
+}
+
+
